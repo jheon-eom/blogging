@@ -6,3 +6,4 @@ public class DiscountAmount {
         System.out.println("할인금액을 사용합니다.");
     }
 }
+
