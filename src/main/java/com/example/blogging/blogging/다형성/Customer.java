@@ -4,19 +4,19 @@ public class Customer {
 
     private String grade;
 
-    private DiscountAmount discountAmount;
+    private Benefit benefit;
 
-    public Customer(String grade, DiscountAmount discountAmount) {
+    public Customer(String grade, Benefit benefit) {
         this.grade = grade;
-        this.discountAmount = discountAmount;
+        this.benefit = benefit;
     }
 
     public String getGrade() {
         return this.grade;
     }
 
-    public DiscountAmount getDiscountAmount() {
-        return this.discountAmount;
+    public Benefit getBenefit() {
+        return this.benefit;
     }
 }
 

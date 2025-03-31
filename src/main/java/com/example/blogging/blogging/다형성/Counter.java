@@ -7,11 +7,11 @@ public class Counter {
         System.out.println(customer.getGrade() + " 고객님의 계산을 시작합니다.");
         System.out.println(product.getName() + " 상품의 가격은 " + product.getPrice() + "원 입니다.");
 
-        if (customer.getDiscountAmount() != null) {
-            customer.getDiscountAmount().use();
-        }
+        customer.getBenefit().use();
 
         System.out.println("계산을 종료합니다.");
         System.out.println("------------------------------------");
     }
 }
+
+
