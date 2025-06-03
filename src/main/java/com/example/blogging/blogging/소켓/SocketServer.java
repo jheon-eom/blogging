@@ -1,4 +1,4 @@
-package com.example.blogging.blogging;
+package com.example.blogging.blogging.소켓;
 
 import java.io.BufferedReader;
 import java.io.IOException;
